@@ -1,0 +1,52 @@
+body
+{
+  background-color: #373737;
+  color: #8D1703;
+  font-family: BaksoSapi;
+  margin: 0;
+}
+
+
+.navContainer
+{
+  background-color: #080808;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.navMenu
+{
+  width: 100%;
+  max-width: 1400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.companyName
+{
+  color: #A41E14;
+  cursor: grab;
+}
+
+.navList
+{
+  list-style-type: none;
+}
+
+.navListItem
+{
+  display: inline-block;
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+
+.navListItemIcon
+{
+  height: 1.5rem;
+  vertical-align: middle;
+  margin-bottom: 0.2rem;
+}
