@@ -1,9 +1,9 @@
 body
 {
   background-color: #373737;
-  color: #8D1703;
   font-family: BaksoSapi;
   margin: 0;
+  text-align: center;
 }
 
 
@@ -41,7 +41,12 @@ body
 {
   display: inline-block;
   margin-right: 0.5rem;
-  cursor: pointer;
+  color: #8D1703;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .navListItemIcon
@@ -49,4 +54,25 @@ body
   height: 1.5rem;
   vertical-align: middle;
   margin-bottom: 0.2rem;
+}
+
+.currentItem {
+  filter: brightness(75%);
+  cursor: default;
+}
+
+.navListItem:hover {
+  filter: brightness(200%);
+}
+
+.currentItem:hover {
+  filter: brightness(75%);
+}
+
+.content{
+  width: 100vw;
+  height: 60vh;
+  vertical-align: middle;
+  padding-top: 5rem;
+  font-size: 5rem;
 }
