@@ -44,7 +44,8 @@ body
   color: #8D1703;
 }
 
-a {
+a
+{
   text-decoration: none;
   color: inherit;
 }
@@ -56,20 +57,24 @@ a {
   margin-bottom: 0.2rem;
 }
 
-.currentItem {
+.currentItem
+{
   filter: brightness(75%);
   cursor: default;
 }
 
-.navListItem:hover {
+.navListItem:hover
+{
   filter: brightness(200%);
 }
 
-.currentItem:hover {
+.currentItem:hover
+{
   filter: brightness(75%);
 }
 
-.content{
+.content
+{
   width: 100vw;
   height: 60vh;
   vertical-align: middle;
