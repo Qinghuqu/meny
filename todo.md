@@ -1,4 +1,4 @@
 * [x] Verify code
-* [ ] Code cleaning (Leo's standard)
-* [ ] Apply theme switching
+* [x] Code cleaning (Leo's standard)
 * [ ] Responsive website
+* [ ] Apply theme switching
