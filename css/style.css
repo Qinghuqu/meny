@@ -1,7 +1,7 @@
 body
 {
-  font-family: Tahoma sans-serif;
   margin: 0;
+  font-family: 'Source Sans Pro', Helvetica, Trebuchet MS;
   text-align: center;
   font-size: 0.8rem;
 }
@@ -32,6 +32,7 @@ body
   color: #FFFFFF;
   cursor: grab;
   margin: 0;
+  text-transform: uppercase;
 }
 
 .navList
@@ -47,17 +48,11 @@ body
   color: #FFFFFF;
 }
 
-a
-{
-  text-decoration: none;
-  color: inherit;
-}
-
 .navListItemIcon
 {
   height: 1.5rem;
-  vertical-align: center;
-  margin-top: 0.55rem;
+  vertical-align: middle;
+  margin-top: 0.7rem;
   margin-right: 0.3rem;
 }
 
@@ -69,6 +64,8 @@ a
 
 a
 {
+  text-decoration: none;
+  color: inherit;
   transition: 0.5s;
 }
 
